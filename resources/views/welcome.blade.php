@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+@foreach($data as $item)
+        <div>
+            {{$item->book_name}}
+        </div>
+    @endforeach
+</body>
+</html>
+=======
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -130,3 +146,4 @@
         </div>
     </body>
 </html>
+>>>>>>> 5a456c77dafe5cac806dbd5907b68b5524d35ed4

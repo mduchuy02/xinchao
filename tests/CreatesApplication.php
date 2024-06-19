@@ -19,4 +19,8 @@ trait CreatesApplication
 
         return $app;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5a456c77dafe5cac806dbd5907b68b5524d35ed4
